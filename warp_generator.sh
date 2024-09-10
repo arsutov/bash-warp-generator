@@ -25,9 +25,9 @@ peer_endpoint=$(echo "$peer_endpoint" | sed 's/\(.*\):[0-9]*/162.159.193.5/')
 conf=$(cat <<-EOM
 [Interface]
 PrivateKey = ${priv}
-Jc = 120
-Jmin = 23
-Jmax = 911
+Jc = 4
+Jmin = 40
+Jmax = 70
 H1 = 1
 H2 = 2
 H3 = 3
